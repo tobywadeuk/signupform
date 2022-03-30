@@ -70,9 +70,6 @@ body {
     height: 100vh;
 }
 
-
-
-
 .leftside {
     background-color: tomato;
     width: 40%;
@@ -92,7 +89,7 @@ body {
 .leftbar {
     position: relative;
     /* able to adjust normal positioning */
-    top: 175px;
+    top: 22vh;
     background-color: rgba(58, 56, 69, 0.5);
     height: 20%;
     display: flex;
@@ -101,15 +98,15 @@ body {
 }
 
 .logoimg {
-    width: 75px;
+    width: 5.2vw;
     height: auto;
 }
 
 .logotext {
     font-family: Libre Baskerville, Open Sans;
-    font-size: 44px;
+    font-size: 2.75rem;
     letter-spacing: 0.5mm;
-    margin: 25px;
+    margin: 3.1vh 1.7vw; 
     color: aliceblue;
 }
 
@@ -140,18 +137,18 @@ body {
 .righttoptext {
     max-width: 50ch;
     font-family: Roboto;
-    font-size: 24px;
+    font-size: 1.5rem;
     font-weight: 500;
-    margin: 0 45px;
+    margin: 0 3.125vw;
     line-height: 1.25;
 }
 
 .rtt2 {
     font-family: Roboto;
-    font-size: 24px;
+    font-size: 1.5rem;
     font-weight: 500;
-    margin: 0 45px;
-    margin-top: 30px;
+    margin: 0 3.1vw;
+    margin-top: 3.8vh;
 }
 
 .rightmid {
@@ -165,38 +162,38 @@ body {
 
 .form {
     display: grid;
-    padding: 30px 40px;
-
-    grid-template-columns: repeat(2, 320px);
-    grid-template-rows: auto;
+    padding: 3.8vh 2.8vw;
+    grid-template-columns: repeat(2, 22.2vw);
+    /* grid-template-rows: repeat(4, 2.5vw); */
     grid-gap: 12px;
+    /* min-height: 251px; */
 }
 
 .formtext {
     grid-column: span 2;
     font-weight: 500;
-    font-size: 20px;
+    font-size: 1.25rem;
     font-family: Roboto;
-    padding-bottom: 15px;
+    padding-bottom: 1.9vh;
 }
 
 label {
     color: #7F7C82;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    font-size: 12px;
-    letter-spacing: 1px;
-    margin-bottom: 3.5px;
+    font-size: 0.75rem;
+    letter-spacing: 0.05rem;
+    margin-bottom: 0.44vh;
     display: block;
     font-weight: 550;
 }
 
 input {
-    width: 220px;
-    height: 21px;
+    width: 15.3vw;
+    height: 2.6vh;
     border-radius: 5px;
     border: gainsboro 1px solid;
-    font-size: 14px;
-    padding: 2px 5px;
+    font-size: 0.875rem;
+    padding: 0.25vh 0.35vw;
 }
 
 
@@ -223,32 +220,37 @@ input:focus {
     border: 0 solid white;
     color: white;
     font-weight: 450;
-    font-size: 15px;
+    font-size: 0.9375rem;
     background-color: #5584AC;
-    padding: 15px 15px;
-    margin: 0 20px 0 0;
-    margin-top: 65px;
+    padding: 1.9vh 1vw;
+    /* margin: 0 2.5vh 0 0;
+    margin-top: 8vh; */
     z-index: 1;
-    width: 150px;
+    width: 10.4vw;
+
+    position: absolute;
+    bottom: 17vh;
 }
 
 .alrtext{
     font-family: Roboto;
     font-weight: 450;
-    font-size: 15px;
-    margin: 0 0 0 40px;
+    font-size: 0.9375rem;
+    margin: 0 0 0 2.8vw;
     color: #5584AC;
 }
 
 .bottomtext{
-    margin: 85px 0;
+    position: absolute;
+    bottom: 12vh;
+    /* margin: 12vh 0; */
 }
 
 a{
     font-family: Roboto;
     color: #22577E;
     font-weight: 750;
-    font-size: 14px;
+    font-size: 0.875rem;
     text-decoration: none;
 }
 
@@ -260,5 +262,5 @@ a{
     color: Red;
     font-family: Roboto;
     font-style: italic;
-    font-size: 15px;
+    font-size: 0.9375rem;
 }
