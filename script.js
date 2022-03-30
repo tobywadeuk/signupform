@@ -11,7 +11,7 @@ form.addEventListener("submit", function(e){
         error.textContent = "Note: Passwords Do Not Match";
 } else {
     let username = document.getElementById("firstname")
-    alert("Thanks " + username.value)
+    alert("Thanks for joining us " + username.value + ". We look forward to living the beach life with you.")
 }
 
 
